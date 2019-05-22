@@ -1,0 +1,84 @@
+.menu-btn {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    width: 50%;
+    background-color: #121212;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    z-index: 99;
+    top: -30px;
+    left: -10px;
+}
+
+.modal-header {
+    background-color: #0095cc;
+}
+
+.logout {
+    color: #121212;
+}
+
+.modal-body {
+    scroll-behavior: unset;
+    overflow: none;
+    text-align: left;
+    background-color: #0095cc;
+}
+
+.modal-footer {
+    background-color: #0095cc;
+}
+
+.menu-button {
+    margin: 5% 0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.modal-footer .menu-button {
+    margin: 0;
+    position: relative;
+    left: -25px;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+.menu-button:disabled {
+    cursor: unset;
+}
+
+.quickstart {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.menu-login {
+    /* only for the word "Login" */
+    margin-left: -10px;
+}
+
+a {
+    color: #121212;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #121212;
+}
+
+button {
+    background-color: #0095cc;
+    border: none;
+    padding: 0;
+}
